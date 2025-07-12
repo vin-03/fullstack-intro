@@ -1,20 +1,23 @@
-# Firebase CRUD Table
+# CRUD Table App
 
-A simple web application built with Next.js and Firebase that allows users to manage data in a table format.
+A simple CRUD table built with Next.js and with a PostgreSQL database hosted on Vercel.
 
 ## Description
 
-The app supports some of CRUD functionality:
+This project implements full CRUD functionality:
 - Add new entries  
 - Delete records  
-- Real-time data updates via Firebase
+- Data is persisted in a relational PostgreSQL database via Prisma
+
+Deployed and hosted on Vercel using their integrated serverless and database support.
 
 ## Technologies Used
 
 - Next.js  
 - React  
 - JavaScript  
-- Firebase (Firestore)
+- Prisma ORM  
+- PostgreSQL (Neon/Vercel)  
 
 ## How to Run Locally
 
